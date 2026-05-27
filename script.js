@@ -1,7 +1,6 @@
 document.addEventListener('DOMContentLoaded', () => {
     const path = window.location.pathname.split('/').pop();
 
-    // ========== INDEX ==========
     if (path === 'index.html' || path === '') {
         const btnIniciar = document.getElementById('iniciar-partida');
         const btnRegras = document.getElementById('regras');
@@ -39,7 +38,6 @@ document.addEventListener('DOMContentLoaded', () => {
         }
     }
 
-    // ========== PÁGINA 2: JOGO ==========
     if (path === 'pagina2.html') {
         const TIPOS = ['pedra', 'papel', 'tesoura', 'lagarto', 'spock'];
         const REGRAS = {
@@ -72,7 +70,6 @@ document.addEventListener('DOMContentLoaded', () => {
         const playerScoreEl = document.getElementById('player-score');
         const aiScoreEl = document.getElementById('ai-score');
 
-        // DEBUG DISCRETO NO CANTO
         const debugEl = document.createElement('div');
         debugEl.style.cssText = `
             position: fixed;
@@ -361,7 +358,6 @@ document.addEventListener('DOMContentLoaded', () => {
         setTimeout(distribuirCartas, 500);
     }
 
-    // ========== PÁGINA 3: RESULTADO ==========
     if (path === 'pagina3.html') {
         const vencedor = localStorage.getItem('vencedor') || 'Empate';
         const scoreHouse = localStorage.getItem('scoreHouse') || '0';
