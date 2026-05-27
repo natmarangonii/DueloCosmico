@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html class="dark" lang="pt-BR">
+<head>
+    <meta charset="utf-8">
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <title>Confronto Sideral - Menu Principal</title>
+    <link href="https://fonts.googleapis.com/css2?family=Sora:wght@400;600;700;800&family=Hanken+Grotesk:wght@400;500;600&family=JetBrains+Mono:wght@500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style1.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <div class="nebula-bg"></div>
+    <div class="gradient-overlay"></div>
+    <div id="stars"></div>
+
+    <main>
+        <div class="hero">
+            <div class="hero-text">
+                <h1 class="title">DUELO CÓSMICO</h1>
+            </div>
+
+            <div class="cta-buttons">
+                <button class="btn-primary" id="iniciar-partida">
+                    <span>Iniciar Partida</span>
+                </button>
+                <button class="btn-secondary" id="regras">
+                    Regras do Jogo
+                </button>
+            </div>
+        </div>
+    </main>
+
+    <div class="modal" id="modal-regras">
+        <div class="modal-overlay" id="fechar-modal"></div>
+        <div class="modal-content">
+            <button class="modal-close" id="btn-fechar">✕</button>
+            <img src="assets/regras.png" alt="Regras do Jogo" class="modal-img">
+        </div>
+    </div>
+</body>
+</html>
