@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html class="dark" lang="pt-BR">
+<head>
+    <meta charset="utf-8"/>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+    <title>Resultado</title>
+    <link href="https://fonts.googleapis.com/css2?family=Sora:wght@400;600;700&family=Hanken+Grotesk:wght@400;500&display=swap" rel="stylesheet"/>
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&display=swap" rel="stylesheet"/>
+    <link rel="stylesheet" href="style3.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <div class="cosmic-bg"></div>
+    <div class="cosmic-overlay"></div>
+
+    <main>
+        <div class="vibrant-flare" id="vibrant-flare"></div>
+
+        <div class="container">
+            <div class="trophy" id="trophy">
+                <img id="icon-resultado" src="assets/maozinha.png" alt="Resultado" class="icon-img">
+            </div>
+
+            <h2 id="titulo-resultado">RESULTADO</h2>
+
+            <div class="scores">
+                <div class="score-box glass-panel">
+                    <span class="score-label">Você</span>
+                    <span class="score-value" id="score-house">0</span>
+                </div>
+                <div class="score-box glass-panel">
+                    <span class="score-label">Adversário</span>
+                    <span class="score-value" id="score-player">0</span>
+                </div>
+            </div>
+
+            <div class="actions">
+                <button class="btn-primary" id="play-again">
+                    Jogar Novamente
+                    <span class="material-symbols-outlined">restart_alt</span>
+                </button>
+                <button class="btn-secondary glass-panel" id="home">
+                    Tela Inicial
+                    <span class="material-symbols-outlined">home</span>
+                </button>
+            </div>
+        </div>
+    </main>
+</body>
+</html>
