@@ -1,4 +1,4 @@
-ze faz um favor, faça um readme.md com base nesse codigo, pra ficar as imagens bonitinhas, duas em sima e duas em baixo
+
 #  Jogo Pedra, Papel, Tesoura, Lagarto e Spock
 Um jogo com linguagem em JavaScript e HTML de **Pedra, Papel, Tesoura, Lagarto e Spock**. Jogador 1 contra o próprio computador, com contagem de pontos. Na paleta de cores de roxo, rosa, azul, etc. Com sistema de regras do jogo **UNO**.
 
